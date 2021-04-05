@@ -15,18 +15,21 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  font-family: Andale Mono, monospace;
+  color: #515151;
 }
+
 a:hover {
   color: #6633ff;
 }
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
-  background: black;
-  min-height: 30px;
+  /* see how it looks without this bg color i may need to remove this
+   background: #c2c9e1;*/
+  min-height: 20px;
   padding: 10px;
   position: fixed;
   text-align: center;
@@ -43,9 +46,13 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #515151;
+    font-family: Snell Roundhand, cursive;
+    font-size: 20px;
 }
+
 .nav li {
+  font-family: Arial, Helvetica, sans-serif;
   padding: 5px 10px 10px 10px;
 }
 .nav a {
@@ -53,7 +60,7 @@ a:hover {
 }
 .nav a:hover {
   color: white
-}
+} 
 
 header {
   text-align: center;
@@ -62,9 +69,11 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
@@ -78,16 +87,17 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: rgb(136, 96, 208);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
+
 .location {
-  background-color: #222;
-  color: yellow;
+  color: rgb(136, 96, 208);
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -110,7 +120,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background:rgb(136, 96, 208);
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -151,9 +161,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
