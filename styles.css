@@ -34,7 +34,7 @@ nav {
   position: fixed;
   text-align: center;
 }
-.nav {
+.main-nav {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
@@ -43,7 +43,7 @@ nav {
   padding: 0;
 }
 
-.nav .name {
+.main-nav .name {
     display: block;
     margin-right: auto;
     color: #515151;
@@ -51,14 +51,14 @@ nav {
     font-size: 20px;
 }
 
-.nav li {
+.main-nav li {
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px 10px 10px 10px;
 }
-.nav a {
+.main-nav a {
   transition: all .5s;
 }
-.nav a:hover {
+.main-nav a:hover {
   color: white
 } 
 
@@ -87,7 +87,7 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
-  color: rgb(136, 96, 208);
+  color: #515151;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -95,7 +95,7 @@ header .profile-image:hover {
 } 
 
 .location {
-  color: rgb(136, 96, 208);
+  color:#515151;
 }
 
 .card {
