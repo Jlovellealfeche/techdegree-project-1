@@ -15,7 +15,6 @@ body {
 
 a {
   text-decoration: none;
-  font-family: Andale Mono, monospace;
   color: #515151;
 }
 
@@ -27,7 +26,7 @@ a:hover {
 
 nav {
   width: 100%;
-   background: #c2c9e1;
+  background: #c2c9e1;
   min-height: 18px;
   padding: 10px;
   position: fixed;
@@ -43,11 +42,11 @@ nav {
 }
 
 .main-nav .name {
-    display: block;
-    margin-right: auto;
-    color: #515151;
-    font-family: Snell Roundhand;
-    font-size: 20px;
+  display: block;
+  margin-right: auto;
+  color: #515151;
+  font-family: Arial;
+  font-size: 20px;
 }
 
 .main-nav li {
