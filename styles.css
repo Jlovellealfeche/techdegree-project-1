@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: Andale Mono, monospace;
   color: #222;
   background: #f9f7ff;
 }
@@ -27,9 +27,8 @@ a:hover {
 
 nav {
   width: 100%;
-  /* see how it looks without this bg color i may need to remove this
-   background: #c2c9e1;*/
-  min-height: 20px;
+   background: #c2c9e1;
+  min-height: 18px;
   padding: 10px;
   position: fixed;
   text-align: center;
@@ -47,7 +46,7 @@ nav {
     display: block;
     margin-right: auto;
     color: #515151;
-    font-family: Snell Roundhand, cursive;
+    font-family: Snell Roundhand;
     font-size: 20px;
 }
 
@@ -109,7 +108,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #f1c7f1;
 }
 
 ul.skills {
@@ -127,7 +126,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #80c5f3;
 }
 
 footer {
