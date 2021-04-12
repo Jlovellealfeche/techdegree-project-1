@@ -26,11 +26,12 @@ a:hover {
 
 nav {
   width: 100%;
-  background: #c2c9e1;
+  background: #d6cae7;
   min-height: 18px;
   padding: 10px;
   position: fixed;
   text-align: center;
+  
 }
 .main-nav {
   display: flex;
@@ -45,17 +46,20 @@ nav {
   display: block;
   margin-right: auto;
   color: #515151;
-  font-family: Arial;
-  font-size: 20px;
+  font-family: cursive;
+  font-size: 25px;
+  padding: 5px 0 0 15px;
 }
 
 .main-nav li {
   font-family: Arial, Helvetica, sans-serif;
-  padding: 5px 10px 10px 10px;
+  padding: 15px 10px 10px 5px;
 }
+
 .main-nav a {
   transition: all .5s;
 }
+
 .main-nav a:hover {
   color: white
 } 
@@ -84,7 +88,7 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color:#fff;
   color: #515151;
   padding: 10px;
   border-radius: 5px;
@@ -96,17 +100,17 @@ header .profile-image:hover {
   color:#515151;
 }
 
-.card {
+section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
-  text-align: left;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+section:hover {
   border-color: #f1c7f1;
 }
 
@@ -171,6 +175,11 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.pp2{
+  width:340px; /* you can use % */
+  height: 500px;
 }
 
 /* Styles for larger screens */
