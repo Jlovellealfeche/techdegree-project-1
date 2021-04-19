@@ -82,8 +82,8 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 30%;
+  border: 5px dotted white;
   transition: all .5s;
 }
 
@@ -209,14 +209,18 @@ a.social:hover {
 
 .still {
   background: none;
+  font-size: 18px;
   margin: 0 auto;
   border-color: transparent;
+  max-width: 900px;
 }
 
 .travel {
   background: none;
+  font-size: 18px;
   margin: 0 auto;
   border-color: transparent;
+  max-width: 900px;
 }
 
 /*style for photo grid*/
